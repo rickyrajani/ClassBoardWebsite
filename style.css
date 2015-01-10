@@ -1,0 +1,250 @@
+html, body {
+  height: 100%;
+  margin:0;
+  padding:0;
+  font-family: 'Futura Book', sans-serif;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+#banner {
+  background-color: #860E0E;
+  margin: 0;
+  padding-bottom: 60px;
+  overflow-y: hidden;
+}
+
+#title-before {
+  height: 100%;
+  display: table;
+  width: 100%;
+}
+
+#title {
+  color: white;
+  text-align: center;
+  margin: auto;
+  display: table-cell;
+  vertical-align: middle;
+  word-wrap: break-all;
+  height: 500px;
+}
+
+#title h1 {
+  text-align: center;
+  font-family: "Bebas Neue",sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 8em;
+}
+
+.navbar-default {
+  background-color: #FFFFFF;
+  opacity: 0.9;
+}
+
+.navbar .navbar-tabs {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.nav li {
+  width: 16em;
+  font-weight: normal;
+}
+
+.nav > li {
+  display: inline-block;
+}
+
+body { 
+  padding-top: 70px; 
+}
+
+.jumbotron {
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover; /* For WebKit*/
+  -moz-background-size: cover;    /* Mozilla*/
+  -o-background-size: cover;      /* Opera*/
+  background-size: cover;         /* Generic*/
+  height: 600px;
+  width: 100%;
+  margin-top: 90px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  background-color: white
+}
+
+.collection {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.jumbotron h1, .jumbotron .underline_divider {
+  color: white;
+  border-color: black;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.jumbotron p {
+  font-size: 35px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#about {
+  background-image: url('images/canvas.jpg');
+}
+
+#team {
+  text-align: center;
+}
+
+#events {
+  background-color: rgb(234, 234, 234);
+}
+
+#contact {
+  background-image: url('images/field.jpg');
+  height: 600px;
+}
+
+.underline_divider {
+  text-align: center;
+  border-bottom: 3px solid #2d3038;
+  width: 90px;
+  margin: 10px 10px 10px 10px;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 320px;
+  text-align: center;
+  vertical-align: top;
+  height: 320px;
+}
+
+.item .image {
+  display: inline;
+}
+
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.image img {
+  height: 200px;
+  border: 1px solid #EDEDED;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1, .h1 {
+  font-size: 63px;
+  font-weight: bold;
+}
+
+body {
+  position: relative;
+}
+
+.collection h1, .collection .underline_divider {
+  color: black;
+  border-color: black;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.navbar-default {
+  border-color: transparent;
+}
+
+.collection h3 {
+  color: black;
+  font-size: 63px;
+  font-weight: bold;
+}
+
+#events h1 {
+  font-weight: 300;
+}
+
+#events .item {
+  width: 400px;
+  height: 380px;
+}
+
+#events p {
+  color: black;
+  font-size: 14px;
+}
+
+#events img {
+  width: 360px;
+}
+
+.jumbotron .underline_divider {
+  color: white;
+  border-color: white;
+}
+
+#contact .glyphicon {
+  color: white;
+  font-size: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.glyphicon a:hover{
+  cursor: pointer;
+  color: white;
+}
+
+#events .glyphicon {
+  color: black;
+  font-size: 30px;
+}
+
