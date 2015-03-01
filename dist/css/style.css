@@ -1,0 +1,56 @@
+html, body {
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/BebasNeue.ttf');
+}
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+#banner {
+  background-color: #0E2F86;
+  margin: 0;
+  padding-bottom: 60px;
+  overflow-y: hidden;
+}
+
+#title-before {
+  height: 100%;
+  display: table;
+  width: 100%;
+}
+
+#title h1{
+  color: white;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  word-wrap: break-all;
+  height: 500px;
+  text-align: center;
+  font-family: "Bebas Neue",sans-serif;
+  font-weight: 300;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 8em;
+}
