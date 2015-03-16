@@ -1220,7 +1220,7 @@ a.bg-danger:hover {
 }
 ul,
 ol {
-  margin-top: 0;
+/*  margin-top: 0;*/
   margin-bottom: 10px;
 }
 ul ul,
@@ -2848,9 +2848,9 @@ fieldset[disabled] .btn-default.active {
   background-color: #333;
 }
 .btn-primary {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  color: black;
+  background-color: white;
+/*  border-color: #2e6da4;*/
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -2858,9 +2858,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-  color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  color: black;
+  /* background-color: #337ab7; */
+  cursor: pointer;
 }
 .btn-primary:active,
 .btn-primary.active,
