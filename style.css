@@ -173,14 +173,14 @@ ul {
 }
 
 #events {
-  background-color: rgb(26, 8, 179);
+  background-color: rgb(8, 11, 218);
   padding-top: 30px;
   margin-top: 0px;
 }
 
 #events h1, #events .underline_divider, #events h2, #events p {
-  color: silver;
-  border-color: silver;
+  color: white;
+  border-color: white;
 }
 
 #contact {
