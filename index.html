@@ -1,175 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900italic' rel='stylesheet' type='text/css'>
-    <meta name="description" content="Welcome to the University of Pennsylvania's Class Board of 2018 website.">
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <title>Class Board 2018</title>
-    <link href="style.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="content" id="byline">
-      <div class="header" onclick="hideContent();">
-        <div class="uni">PENN</div>
-        <div class="subhead">2018</div>
-      </div>
-      <ul class = "nav-link" id="nav">
-        <li onclick="showContent('#event');">
-            EVENTS
-        </li>
-        <li onclick="showContent('#team');">
-            TEAM
-        </li>
-        <li onclick="showContent('#contact');">
-            CONTACT
-        </li>
-        <li>
-          <a href="https://www.facebook.com/classboard2018" target ="blank_">
-            FACEBOOK
-          </a>
-        </li>
-      </ul>
-      <div class="subcontent" id="event">
-        COMING SOON
-      </div>
-      <div class="subcontent" id="team">
-        <div class = "collection" id = "team">
-          <div>
-            <h1>Meet the Team</h1>
-            <div class="underline_divider"></div>
-          </div>
-          <div class = "item">
-            <div class = "image img-responsive">
-              <img src = "images/headshots/Vadim.jpg">
-            </div>
-            <h2>Vadim</h2>
-            <h3>President</h3>
-            <p>
-              When our resident celeb isn’t frequenting Santa Barbara film festivals or meeting stars at Ordovsky-Tanaevsky-produced movies (Ordovsky-Tanaevsky? Still wondering how that fit into the little boxes on standardized tests), you will probably spot him on Locust. He’s the one in a tailored suit or classy-but-casual-outfit from Zara (probably with the top button of his shirt undone) or nothing but a wet towel (s/o to his stellar performance at the Quadramics production this fall), shouting into a microphone, working the crowd. Vaddy’s British accent and dimples charm their way into the hearts of anyone he meets. He is constantly on the phone speaking in multiple languages. Is he Spanish? Russian? British? The world may never know (But actually though, they won’t--the Russian mafia has been instructed to make sure nobody finds out.) Possibly the only freshman with his own business card, Vadim is always busy doing something—he has quite the packed “schedule” (pronounced: shed-yool). Yet somehow this social butterfly is always down for a friendly chat or trip to his favorite restaurant, KGB Monday’s—whoops, sorry--T.G.I Friday’s.  Be sure to order the “Vadim special” next time you’re there.
-            </p>
-          </div>
-          <div class = "item">
-            <div class = "image img-responsive">
-              <img src = "images/headshots/Jeremy.jpg">
-            </div>
-            <h2>Jeremy</h2>
-            <h3>Vice President</h3>
-            <p>
-              Germy is anything but germy. He’s fresh as can be. He can also drop some pretty sick beats (exhibit A: his campaign video). Jeremy is the chillest cat in the crib. Catch him surfing some gnarly waves or soaking up the totally tubular sun. See him on campus multiple times and do a double take? No, he hasn’t managed to clone himself and can’t apparate. Fact is, there’s two of him: he has a twin. Could there ever be someone else just as rad as Jeremy? Noah way!
-            </p>
-          </div>
-          <div class = "item">
-            <div class = "image img-responsive">
-              <img src = "images/headshots/Jackie.jpg">
-            </div>
-            <h2>Jackie</h2>
-            <h3>VP of Internal Affairs</h3>
-            <p>
-              The mortar that holds together the brick of the house. The string that holds together the pearls on a necklace. The polar bonds that cause surface tension in water. The lymphocytes that monitor the dangerous pathogens in the bloodstream. The melted cheese that causes macaroni to meld together into a delicious mouthful. The secret formula that holds together the Krabby Patty. Jackie is all of these, and more. Soon to be in the Guinness Book of World Records for fastest meeting minutes sent out, in fact. With her unwavering work ethic, diligence, and conscientiousness, Jackie would be a great addition to the Powerpuff powerhouse crew. She is undoubtedly the Buttercup--her razor sharp wit always keeps it real. Rock on Jackie, rock on.
-            </p>
-          </div>
-          <div class = "item">
-            <div class = "image img-responsive">
-              <img src = "images/headshots/Jeremy.jpg">
-            </div>
-            <h2>Noah</h2>
-            <h3>VP of External Affairs</h3>
-            <p>
-              (see Jeremy)
-            </p>
-          </div>
-          <div class = "item">
-            <div class = "image img-responsive">
-              <img src = "images/headshots/Aimun.jpg">
-            </div>
-            <h2>Aimun</h2>
-            <h3>VP of Finance</h3>
-            <p>
-              Ready, set, go. Word association. When I say Wharton, you say “Aimun Malik.” Our resident finance whiz is the definition of Wall Street. In fact, a movie about a certain wolf on the same road may or may not have been written about his life. When he’s not wielding the CB credit card around like a light saber, he can be found sprinting around campus from Wharton Alumni Relations Committee to Wharton Investment and Trading Group to Wharton Undergraduate Entrepreneurship Club to Wharton Yung Money Swag Association.  Somehow, Aimun doesn’t get bogged down with all the spreadsheets—you know the party doesn’t start till he walks in. Read about it more on his LinkedIn.
-            </p>
-          </div>
-          <div class = "item">
-            <div class = "image img-responsive">
-              <img src = "images/headshots/Andre.jpg">
-            </div>
-            <h2>Andre</h2>
-            <h3>College Chair</h3>
-            <p>
-              The professor made Andre out of sugar, spice, and everything nice. Although he seemed to have gotten an extra dosage of ingredient X that gave him superpowers--Andre can accomplish any task he takes on, and does it while laughing and joking the while time. Seriously. Think of the happiest, smileyest person you know. Then quadruple that bundle of joy and you get Andre. You won’t find a time where he isn’t smiling. Dr. Dre is the Blossom of the Powerpuff trio of awesome. He always brings the family to class board and we love him for it. He may not be a mushroom, but he sure is a fungi.
-            </p>
-          </div>
-          <div class = "item">
-            <div class = "image img-responsive">
-              <img src = "images/headshots/Susannah.jpg">
-            </div>
-            <h2>Susannah</h2>
-            <h3>College Chair</h3>
-            <p>
-              Susannah rivals Andre in sweetness. But it makes sense because they are always twinning as College Chairs. If all the chairs were arranged in a dining room, Susie and Dre would be the chairs with the arms, at each end of the table, the ever-gracious mommy and daddy of the group. Susannah’s cuteness is rivaled by none. She adds to the Powerpuff trio as Bubbles, which makes a lot of sense, because her persona is so bubbly it’s practically a carbonated beverage.
-            </p>
-          </div>
-          <div class = "item">
-            <h2>Kanishka</h2>
-            <h3>Engineering Chair</h3>
-          </div>
-          <div class = "item">
-            <div class = "image img-responsive">
-              <img src = "images/headshots/Rehan.jpg">
-            </div>
-            <h2>Rehan</h2>
-            <h3>Wharton Chair</h3>
-            <p>
-              You can often spot Rehan “where’s the meeting again?” Ayrton running across campus on Wednesdays and Sundays, carrying bagfuls of Wawa snacks as compensation for being late to CB meetings. Our resident goofball communicates frequently and effectively with the Class Board team, and is dependable too, with a consistent “Where’s the meeting again?” although the locations never change. (These are often followed with a *cricket cricket* no response--hey ladies, he is a cricket star!) Jokes aside, Rehan’s adorable accent, mysterious nomadic Dubai air, and charming smile will melt anyone’s heart (I hear he’s also Indian—for all you brown women reading this) Rumor has it he killed it at Management 100, too, so he’s an effective communicator, if you know what I mean. What can’t Rehan do?
-            </p>
-          </div>
-          <div class = "item">
-            <div class = "image img-responsive">
-              <img src = "images/headshots/Sophia.jpg">
-            </div>
-            <h2>Sophia</h2>
-            <h3>Nursing Chair</h3>
-            <p>
-              If I want anyone to be my future nurse, it’s Sophia. Her personality is as warm and sunny as the West Coast where she resides. Her sweet disposition gets everyone to instantly fall in love with her. Sophia also has three of her: she’s a triplet. It’s hard to imagine there can be triple the perfection that is Sophia, but hey, the world is better off. 
-            </p>
-          </div>
-          <div class = "item">
-            <div class = "image img-responsive">
-              <img src = "images/headshots/Medha.jpg">
-            </div>
-            <h2>Medha</h2>
-            <h3>Creative Director</h3>
-            <p>
-              Medha hails from sunny and jovial Wexford PA, and before that, a place with even better weather—London, England. As the funny one, she spends most of her waking hours (because she is secretly a vampire (pre-med) and nocturnal) at rehearsal for Bloomers Comedy Troupe, or laughing at her own puns (at least her mom thinks she’s funny). She once played fiddle in a bluegrass band, owned a pet squirrel named Squirry, can do several accents, and can identify any dog's breed on the spot. When she was younger, her life's aspirations were to host her own talk show, or become Steve Irwin, crocodile hunter, sans sting ray sticking out from the chest, or become an eye surgeon. Jury’s out on whether she will end up curing her patients with humor. After all, seven days without a pun makes one weak (week). 
-            </p>
-          </div>
-          <div class = "item">
-            <div class = "image img-responsive">
-              <img src = "images/headshots/Ricky.jpg">
-            </div>
-            <h2>Ricky</h2>
-            <h3>Webmaster</h3>
-            <p>
-              Ricky loves Java. The coding language or frap flavor at Starbucks? Both. She is the Jimmy Neutron of the crew, exhibited through the numerous "I heart coding stickers" on her laptop. Although Ricky is our gifted code monkey, her talents (and her grades in her classes) extend to far greater than C++. Voted most likely to be the next Van Gogh by CB, this little fashionista is one of the artsiest people on campus. To paint you a better picture, check her work out further on her blog (oh wait, you can’t, it’s on private #stillsalty #sharethetalentwithus #plz)
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="subcontent" id="contact">
-        <h2>Questions? Comments? Concerns? Shoot us a message!</h2>
-          <form name="contact" action="http://formspree.io/classboard2018@gmail.com" method="POST" id="contact-form">
-                  <input class="field" name="name" placeholder="Name" required>
-                  <input class="field" name="email" type="email" placeholder="Email" required>
-                  <textarea class="field" id="message" name="message" placeholder="Message" required></textarea>
-                  <input id="submit" name="submit" type="submit" value="SUBMIT" class="button">
-          </form>
-      </div>
-    </div> 
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
-  </body>
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script type="text/javascript" src="main.js"></script>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Class Board 2018</title>
+    <meta name="description" content="Welcome to the University of Pennsylvania's Class Board of 2018 website." />
+    <meta name="keywords" content="upenn, penn, 18, class board, university of pennsylvania" />
+    <link rel="shortcut icon" href="images/fav.ico">
+    <meta name="author" content="Class Board 2018">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Penn 18</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#events">Events</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="https://www.facebook.com/classboard2018" target ="blank_">Facebook</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h2>University of Pennsylvania</h2>
+                <h1>Class of 2018</h1>
+            </div>
+        </div>
+    </header>
+
+    <section class = "no-padding" id="events">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <div class="event-box">
+                            <img src="images/events/SkimmerEvent.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        COMING SOON: Skimmerfest
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <div class="event-box">
+                            <img src="images/events/BrunchEvent.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Class Board Presents: Brunch
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <div class="event-box">
+                            <img src="images/events/PinderEvent.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        P-inder
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <div class="event-box">
+                            <img src="images/events/HPEvent.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Harry Potter Shirt Sale
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <div class="event-box">
+                            <img src="images/events/MaskEvent.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Mask and Wig Freshmen Show
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <div class="event-box">
+                            <img src="images/events/CramEvent.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Cram n' Jam
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <div class="headshot">
+                            <img src = "images/headshots/Mak.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-name">
+                                        Makayla Reynolds
+                                    </div>
+                                    <div class="project-category text-faded">
+                                        President
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <div class="headshot">
+                            <img src="images/headshots/JeremyCrop.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-name">
+                                        Jeremy Falk
+                                    </div>
+                                    <div class="project-category text-faded">
+                                        Vice President
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <div class="headshot">
+                            <img src="images/headshots/NoahCrop.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-name">
+                                        Noah Falk
+                                    </div>
+                                    <div class="project-category text-faded">
+                                        VP of External Affairs
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <div class="headshot">
+                            <img src="images/headshots/JackieCrop.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-name">
+                                        Jackie Askins
+                                    </div>
+                                    <div class="project-category text-fadedproject-name">
+                                        VP of Internal Affairs
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <div class="headshot">
+                            <img src="images/headshots/Andre.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-name">
+                                        Andre Na
+                                    </div>
+                                    <div class="project-category text-faded">
+                                        College Chair
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <div class="headshot">
+                            <img src="images/headshots/Medha.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-name">
+                                        Medha Sharma
+                                    </div>
+                                    <div class="project-category text-faded">
+                                        College Chair
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <div class="headshot">
+                            <img src="images/headshots/KanishkaCrop.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-name">
+                                        Kanishka Rao
+                                    </div>
+                                    <div class="project-category text-faded">
+                                        SEAS Chair
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <div class="headshot">
+                            <img src="images/headshots/RehanCrop.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-name">
+                                        Rehan Ayrton
+                                    </div>
+                                    <div class="project-category text-faded">
+                                        Wharton Chair
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <div class="headshot">
+                            <img src="images/headshots/Ricky.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-name">
+                                        Ricky Rajani
+                                    </div>
+                                    <div class="project-category text-faded">
+                                        Webmaster
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Questions? Comments? Concerns? Shoot us a message!</h2>
+                    <hr class="primary">
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <a href="https://www.facebook.com/classboard2018" target ="blank_">
+                        <i class="fa fa-facebook-square fa-3x wow bounceIn"></i>
+                    </a>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:your-email@your-domain.com">classboard2018@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+</body>
 
 </html>
